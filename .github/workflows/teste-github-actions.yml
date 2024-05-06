@@ -1,0 +1,15 @@
+name: Exemplo de workflow
+
+on:
+  workflow_dispatch:
+
+
+jobs:
+  acao_inicial_job:
+    runs_on: ubuntu-latest
+    steps:
+      - name: Imprime Hello word
+        run: echo Hello world
+      - name: Imprime
+        run: echo Tchau
+
