@@ -1,0 +1,18 @@
+# Nome do workflow
+name: name workflow
+
+# Indica o gatilho para iniciar o fluxo de trabalho
+on:
+  workflow_dispatch:
+
+
+# jobs
+jobs:
+  acao_1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step01
+        run: echo step01
+      - name: step02
+        run: echo step02
+
