@@ -6,9 +6,9 @@ on:
 
 jobs:
   acao_inicial_job:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-      - name: Imprime Hello word
+      - name: Imprime Hello world
         run: echo Hello world
       - name: Imprime
         run: echo Tchau
